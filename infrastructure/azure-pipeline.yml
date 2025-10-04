@@ -1,0 +1,9 @@
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: echo Building and deploying the app
+  displayName: 'Build and Deploy'
